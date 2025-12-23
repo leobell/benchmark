@@ -22,6 +22,7 @@ header {
 #options {
     display: flex;
     border: yellow solid 2px;
+    align-items: center;
 }
 
 main {
@@ -33,14 +34,25 @@ main {
 #news {
     display: flex;
     border: orange solid 2px;
+    width: 70%;
 }
 
 #otherInfo {
     display: flex;
     border: brown solid 2px;
+    width: 30%;
 }
 
 #navNews {
     display: flex;
     border: blue solid 2px;
+}
+
+#options ion-icon {
+    font-size: 1.5em;
+    padding-right: 15px;
+}
+
+#option button {
+    padding-right: 15px;
 }
