@@ -3,16 +3,14 @@ body {
 }
 
 header {
-    padding: 0 20vh 0 20vh;
+    padding: 0 15vh 0 15vh;
     display: flex;
-    border: green solid 2px;
     height: 10vh;
     justify-content: space-between;
     box-shadow: 0 5px 20px gray;
 }
 
 #logo {
-    border: greenyellow solid 2px;
     height: 100%;
     width: 70%;
 }
@@ -23,14 +21,13 @@ header {
 
 #options {
     display: flex;
-    border: yellow solid 2px;
     align-items: center;
     justify-content: space-between;
     width: 30%;
 }
 
 main {
-    padding: 0 20vh 0 20vh;
+    padding: 0 15vh 0 15vh;
     display: flex;
     border: red solid 2px;
 }
@@ -47,9 +44,12 @@ main {
     width: 35%;
 }
 
-#navNews {
+#news nav {
     display: flex;
-    border: blue solid 2px;
+    border-bottom: rgb(226, 226, 226) solid 2px;
+    height: 8vh;
+    align-items: end;
+    width: 100%;
 }
 
 #options ion-icon {
@@ -74,4 +74,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav :first-child {
+    margin: 0;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav :last-child {
+    margin: 0;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
