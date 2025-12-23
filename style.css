@@ -1,0 +1,46 @@
+body {
+    margin:0
+}
+
+header {
+    padding: 0 20vh 0 20vh;
+    display: flex;
+    border: green solid 2px;
+    height: 8vh;
+    justify-content: space-between;
+}
+
+#logo {
+    border: greenyellow solid 2px;
+    height: 100%;
+}
+
+#logo img{
+    height: 100%;
+}
+
+#options {
+    display: flex;
+    border: yellow solid 2px;
+}
+
+main {
+    padding: 0 20vh 0 20vh;
+    display: flex;
+    border: red solid 2px;
+}
+
+#news {
+    display: flex;
+    border: orange solid 2px;
+}
+
+#otherInfo {
+    display: flex;
+    border: brown solid 2px;
+}
+
+#navNews {
+    display: flex;
+    border: blue solid 2px;
+}
