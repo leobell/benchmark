@@ -8,6 +8,7 @@ header {
     border: green solid 2px;
     height: 10vh;
     justify-content: space-between;
+    box-shadow: 0 5px 20px gray;
 }
 
 #logo {
