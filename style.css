@@ -2,6 +2,10 @@ body {
     margin:0
 }
 
+p {
+    margin: 0;
+}
+
 header {
     padding: 0 15vh 0 15vh;
     display: flex;
@@ -33,7 +37,6 @@ main {
 }
 
 #news {
-    display: flex;
     border: orange solid 2px;
     width: 65%;
 }
@@ -88,4 +91,106 @@ nav :last-child {
     font-size: 1em;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+#articoli {
+    border: blue solid 2px;
+    margin-top: 2vh;
+}
+
+.cardArticolo {
+    border: violet solid 2px;
+    display: flex;
+    height: 25vh;
+}
+
+.cardArticolo article {
+    display: flex;
+    flex-direction: column;
+    border: red solid 2px;
+    width: 65%;
+    justify-content: space-around;
+}
+
+.imgArticolo  {
+    border: yellow solid 2px;
+    width: 35%;
+    overflow: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.imgArticolo img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logoFonte {
+    border: rgb(12, 255, 194) solid 2px;
+    display: flex;
+    width: 100%;
+    height: 3vh;
+    align-items: center;
+}
+
+.logoFonte img {
+    height: 100%;
+    width: 3vh;
+    border-radius: 20%;
+}
+
+h1 {
+    border: burlywood solid 2px;
+}
+
+
+.logoFonte p {
+    margin: 0;
+}
+
+.fontDescrizione {
+    border: rgb(182, 108, 12) solid 2px;
+}
+.otherInfo {
+    display: flex;
+    border: rgb(100, 67, 24) solid 2px;
+    align-items: center;
+
+}
+
+.timing {
+    border: rgb(107, 0, 89) solid 2px;
+    width: 80%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.otherButton {
+    border: rgb(126, 62, 115) solid 2px;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.otherButton ion-icon {
+    font-size: 1.5em;
+}
+
+.otherButton :first-child {
+    margin-right: 8px;
+}
+
+.otherInfo p {
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.otherInfo :nth-child(5) {
+    background-color: rgba(190, 190, 190, 0.534);
 }
