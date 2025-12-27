@@ -303,8 +303,69 @@ h1 {
     background-color: white;
 }
 
+#salvatiRecenti {
+    width: 100%;
+}
+
+#imgAutoreArticolo {
+    display: flex;
+    border: yellowgreen solid 2px;
+    height: 3vh;
+    align-items: center;
+}
+
+#imgAutoreArticolo img {
+    height: 100%;
+    width: 3vh;
+    border-radius: 20%;
+}
+
+.timingSalvati {
+    border: rgb(107, 0, 89) solid 2px;
+    width: 80%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.timingSalvati p {
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.timingSalvati ion-icon {
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.imgProfiloCommenti {
+    display: flex;
+    border: yellowgreen solid 2px;
+    height: 3vh;
+    align-items: center;
+}
+
+.imgProfiloCommenti img {
+    height: 100%;
+    width: 3vh;
+    border-radius: 20%;
+}
+
+#salvatiRecenti a {
+    color: green;
+    text-decoration: none;
+}
+
 footer a {
     color: black;
     text-decoration: none;
     margin-right: 15px;
 }
+
+
