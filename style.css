@@ -102,6 +102,8 @@ nav :last-child {
     border: violet solid 2px;
     display: flex;
     height: 25vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .cardArticolo article {
@@ -153,11 +155,12 @@ h1 {
 .fontDescrizione {
     border: rgb(182, 108, 12) solid 2px;
 }
-.otherInfo {
+
+#otherInfo {
     display: flex;
     border: rgb(100, 67, 24) solid 2px;
     align-items: center;
-
+    flex-direction: column;
 }
 
 .timing {
@@ -193,4 +196,109 @@ h1 {
 
 .otherInfo :nth-child(5) {
     background-color: rgba(190, 190, 190, 0.534);
+}
+
+#twitterZone {
+    display: flex;
+    flex-direction: column;
+    border: rgb(112, 24, 24) solid 2px;
+    width: 100%;
+    height: 35vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#loghiMediumTwitter {
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#loghiMediumTwitter img {
+    height: 80%;
+}
+
+#loghiMediumTwitter ion-icon {
+    font-size: 1.5em;
+}
+
+#twitterZone p {
+    text-align: center;
+}
+
+#twitterZone button {
+    display: flex;
+    height: 40px;
+    width: 20vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#twitterZone button img {
+    height: 100%;
+}
+
+#buttonTopics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: start;
+}
+
+#buttonTopics li {
+    list-style-type: none;
+    background-color: rgba(231, 231, 231, 0.733);
+    padding: 15px;
+    margin: 5px;
+    border-radius: 24px;
+}
+
+.sottoTitoliOtherInfo {
+
+}
+
+#followList {
+    width: 100%;
+}
+
+#peopleAccount {
+    padding: 0;
+
+}
+
+.accountInfo {
+    list-style-type: none;
+    display: flex;
+    border: red solid 2px;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.fotoEnome {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.fotoEnome img {
+    height: 100%;
+    width: 8vh;
+    overflow: hidden;
+    border: red solid 2px;
+    border-radius: 50%;
+}
+
+.nomeConDescrizione {
+    margin-left: 15px;
+}
+
+.accountInfo button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
 }
