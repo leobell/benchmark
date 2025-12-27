@@ -207,7 +207,6 @@ h1 {
 
 #otherInfo {
     display: flex;
-    border: rgb(100, 67, 24) solid 2px;
     align-items: center;
     flex-direction: column;
     margin-left: 20px;
