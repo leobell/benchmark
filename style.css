@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 body {
     margin:0
 }
@@ -33,12 +36,12 @@ header {
 main {
     padding: 0 15vh 0 15vh;
     display: flex;
-    border: red solid 2px;
 }
 
 #news {
-    border: orange solid 2px;
     width: 65%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #otherInfo {
@@ -49,10 +52,29 @@ main {
 
 #news nav {
     display: flex;
-    border-bottom: rgb(226, 226, 226) solid 2px;
     height: 8vh;
     align-items: end;
     width: 100%;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+}
+
+#news nav :nth-child(2) {
+    border-bottom:black solid 2px;
+}
+
+#news nav :nth-child(1) {
+    border-bottom: rgb(226, 226, 226) solid 2px;
+    color: rgb(124, 124, 124) ;
+}
+
+#news nav div{
+    display: inline;
+    width: 56%;
+    height: 100%;
+    border-bottom: rgb(226, 226, 226) solid 2px;
 }
 
 #options ion-icon {
@@ -63,6 +85,10 @@ main {
     background-color: white;
     border-radius: 35px;
     height: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+
 }
 
 #options p {
@@ -94,43 +120,39 @@ nav :last-child {
 }
 
 #articoli {
-    border: blue solid 2px;
     margin-top: 2vh;
 }
 
 .cardArticolo {
-    border: violet solid 2px;
     display: flex;
-    height: 25vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    height: 20vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
 }
 
 .cardArticolo article {
     display: flex;
     flex-direction: column;
-    border: red solid 2px;
     width: 65%;
     justify-content: space-around;
 }
 
 .imgArticolo  {
-    border: yellow solid 2px;
     width: 35%;
     overflow: none;
     display: flex;
     align-items: center;
-    
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .imgArticolo img{
-    height: 90%;
+    height: 85%;
     width: 100%;
     object-fit: cover;
 }
 
 .logoFonte {
-    border: rgb(12, 255, 194) solid 2px;
     display: flex;
     width: 100%;
     height: 3vh;
@@ -143,17 +165,44 @@ nav :last-child {
     border-radius: 20%;
 }
 
+
 h1 {
-    border: burlywood solid 2px;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
 }
 
 
 .logoFonte p {
     margin: 0;
+    margin-left: 1vh;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 0.9em;
 }
 
+.logoFonte p span {
+    font-weight: 400;
+}
+
+.cardArticolo article h1 {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 800;
+}
 .fontDescrizione {
-    border: rgb(182, 108, 12) solid 2px;
+    height: 25%;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    color: rgb(110, 110, 110);
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.otherInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #otherInfo {
@@ -164,16 +213,12 @@ h1 {
 }
 
 .timing {
-    border: rgb(107, 0, 89) solid 2px;
-    width: 80%;
     height: 3vh;
     display: flex;
     align-items: center;
 }
 
 .otherButton {
-    border: rgb(126, 62, 115) solid 2px;
-    width: 20%;
     display: flex;
     justify-content: end;
 }
