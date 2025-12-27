@@ -306,6 +306,10 @@ h1 {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: start;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-size: 0.9em;
 }
 
 #buttonTopics li {
@@ -356,6 +360,16 @@ h1 {
     padding: 10px;
     border-radius: 20px;
     background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+}
+
+.nomeProfilo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 1em;
 }
 
 #salvatiRecenti {
