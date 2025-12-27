@@ -46,7 +46,7 @@ main {
 
 #otherInfo {
     display: flex;
-    border: brown solid 2px;
+    border-left: rgb(226, 226, 226) solid 2px;
     width: 35%;
 }
 
@@ -276,6 +276,7 @@ h1 {
     font-weight: 500;
     font-optical-sizing: auto;
     font-size: 1.5em;
+    padding-left: 30px;
 }
 
 #twitterZone button {
@@ -359,6 +360,8 @@ h1 {
 
 #salvatiRecenti {
     width: 100%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 #imgAutoreArticolo {
@@ -378,6 +381,10 @@ h1 {
     height: 3vh;
     display: flex;
     align-items: center;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-size: 0.9em;
 }
 
 .timingSalvati p {
@@ -411,15 +418,36 @@ h1 {
 #salvatiRecenti a {
     color: green;
     text-decoration: none;
+    padding-left: 30px;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+
+}
+
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 footer a {
     color: black;
     text-decoration: none;
     margin-right: 15px;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-size: 0.9em;
 }
 
-#articoloSalvato p {
+#articoloSalvato {
+    padding-left: 30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#articoloSalvato #imgAutoreArticolo p {
     margin: 0;
     margin-left: 1vh;
     font-family: "Google Sans", sans-serif;
@@ -428,8 +456,30 @@ footer a {
     font-size: 0.9em;
 }
 
+#salvatiRecenti h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 1.2em;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 #articoloSalvato p span {
     font-weight: 400;
+}
+
+.commentiSalvati {
+    padding-left: 30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.imgProfiloCommenti p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-size: 0.9em;
 }
 
 
