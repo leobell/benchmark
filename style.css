@@ -364,7 +364,6 @@ h1 {
 
 #imgAutoreArticolo {
     display: flex;
-    border: yellowgreen solid 2px;
     height: 3vh;
     align-items: center;
 }
@@ -376,7 +375,6 @@ h1 {
 }
 
 .timingSalvati {
-    border: rgb(107, 0, 89) solid 2px;
     width: 80%;
     height: 3vh;
     display: flex;
@@ -401,7 +399,6 @@ h1 {
 
 .imgProfiloCommenti {
     display: flex;
-    border: yellowgreen solid 2px;
     height: 3vh;
     align-items: center;
 }
@@ -424,9 +421,17 @@ footer a {
 }
 
 #articoloSalvato p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    margin: 0;
+    margin-left: 1vh;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 700;
     font-optical-sizing: auto;
+    font-size: 0.9em;
 }
+
+#articoloSalvato p span {
+    font-weight: 400;
+}
+
 
 
